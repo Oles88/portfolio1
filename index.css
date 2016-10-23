@@ -3,6 +3,11 @@ body{
     width: 1200px;
      background-image: url(img/background1.jpg);
 }
+#img_body{
+    background-repeat: repeat-x;
+    background-image: url(img/top_repeat.jpg);
+    
+}
 header{
     margin: 0 auto;
     width: 1000px;
@@ -10,7 +15,8 @@ header{
     background-image: url(img/background_header.jpg);
 }
 nav{
-    margin: 0 auto;
+    margin-left: 241px;
+    margin: 0 auto 15px 241px;
     width: 1000px;
     margin-top: 14px;
 }
