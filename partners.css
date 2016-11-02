@@ -3,6 +3,13 @@ body{
     width: 1200px;
      background-image: url(img/background1.jpg);
 }
+#img_body{
+ 
+    
+    background-image: url(img/top_repeat.jpg) ;
+    background-repeat: repeat-x;
+   
+}
 header{
     margin: 0 auto;
     width: 1000px;
@@ -77,20 +84,22 @@ nav{
     -moz-border-radius: 40px 40px 40px 40px;
     -webkit-border-radius: 40px 40px 40px 40px;
     border: 3px outset #777fe0;
+    
+    padding-bottom: 12px;
  }
   img{
      float: left;
      margin: 10px;
  }
-div{
+article div{
     background-color: #F9F2E3; 
     margin-top: 9px;
     margin-left: 37px;
     width: 90%;
     
-    padding: 10px 10px 15px 10px;
+    padding: 10px 10px 32px 10px;
     border: 3px outset #777fe0;
-    float: left;
+    clear: left;
     
 }
 #block_id {
@@ -127,4 +136,28 @@ article div a{
     border: none;
     padding: 4px 4px 4px 12px;
     width: 870px;
+}
+ #header_1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 100px 10px 32px 64px;
+}
+#header_2{
+    font-size: 20px;
+    position: absolute;
+    right: 483px;
+    top: 100px;
+}
+ #header_3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 34px 10px 32px 64px;
+}
+#header_4{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 483px;
+    top: 100px;
+    padding-top: 86px;
 }

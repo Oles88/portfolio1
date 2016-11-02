@@ -4,9 +4,11 @@ body{
      background-image: url(img/background1.jpg);
 }
 #img_body{
-    background-repeat: repeat-x;
-    background-image: url(img/top_repeat.jpg);
+ 
     
+    background-image: url(img/top_repeat.jpg) ;
+    background-repeat: repeat-x;
+   
 }
 header{
     margin: 0 auto;
@@ -98,3 +100,28 @@ nav{
    text-align: center;
    font-weight: 800;
  }
+ 
+ #header_1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 100px 10px 32px 64px;
+}
+#header_2{
+    font-size: 20px;
+    position: absolute;
+    right: 483px;
+    top: 100px;
+}
+ #header_3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 34px 10px 32px 64px;
+}
+#header_4{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 483px;
+    top: 100px;
+    padding-top: 86px;
+}
